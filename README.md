@@ -8,4 +8,4 @@ Initial commit, pre release
 5. Have desired bank preset setup (required)
 6. Run
 7. Use the ezForm to set bank preset, strong or decorated (maybe more later!) and how many urns you wish to make
-8.) Don't forget to set your model ID! ;)
+8. Don't forget to set your model ID! ;)
