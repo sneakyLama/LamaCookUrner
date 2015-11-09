@@ -444,7 +444,7 @@ end;
 
 begin
   clearDebug();
-  //getUpdate();
+  getUpdate();
 
   ogl.setup([800, 600], [0, 0, 576, 388]);
   ogl.setDebugMode(_OGL_DEBUG_MODE);
