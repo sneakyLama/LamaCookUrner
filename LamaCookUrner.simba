@@ -8,10 +8,10 @@ program LamaCookUrner;
 const
 {============================== Script Options ==============================}
 
-  _yourModelID = 327163060; // Enter your character model. ex: 327163060
+  _yourModelID = 1; // Enter your character model. ex: 327163060
 
 
-  _DEBUG = false;           // set to true to see what's going on in text debug
+  //_DEBUG = maybe;           // set to true to see what's going on in text debug, or false to not
 
   _OGL_DEBUG_MODE = 'none'; // what do you want OGL to debug? ex: 'textures', 'models', 'none', etc.
 
