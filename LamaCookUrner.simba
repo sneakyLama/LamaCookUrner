@@ -58,25 +58,25 @@ end;
 
 procedure pFormWebLink(vSender: tObject); native;
 begin
-  openWebPage('https://villavu.com/forum/showthread.php?t=114917');
+  openWebPage('https://villavu.com/forum/showthread.php?t=114948');
 end;
 
 procedure pFormCreate();
 begin
   _ezLamaForm.create('Lama''s Cook Urner');
 
-  _ezLamaForm.addImage('https://puu.sh/l9Zca/bac30e73a5.jpg', '', [0, 0], [260, 148], nil); // header image
+  _ezLamaForm.addImage('https://i.imgur.com/u5NjtOn.png', '', [0, 0], [260, 148], nil); // header image
 
-  _ezLamaForm.addGroupbox('Options', 'b s14', '', [0, 135], [260, 130]);
-    _ezLamaForm.addLabel('Urn Quality', 'c8421504 i s10', '', [20, 160]);
-      ezUrnType := _ezLamaForm.addCombobox(['Decorated', 'Strong'], 's10', '', [30, 180], 90, nil).prop('readonly', true);
-    _ezLamaForm.addLabel('Bank Preset', 'c8421504 i s10', '', [130, 160]);
-      ezBankPreset := _ezLamaForm.addCombobox(['1', '2'], 's10', '', [140, 180], 65, nil).prop('readonly', true);
-    _ezLamaForm.addLabel('Urns to Make', 'c8421504 i s10', '', [20, 210]);
-      ezUrnMakeCount := _ezLamaForm.addMemo('9001', 'i', '', [30, 230], [90, 20], nil);
-    ezSmartProggy := _ezLamaForm.addCheckbox('SMART Report', 'c8421504 i s10', '', [140, 230], nil);
+  _ezLamaForm.addGroupbox('Options', 'c255 b s14', '', [0, 148], [260, 130]);
+    _ezLamaForm.addLabel('Urn Quality', 'c8421504 i s10', '', [20, 173]);
+      ezUrnType := _ezLamaForm.addCombobox(['Decorated', 'Strong'], 's10', '', [30, 193], 90, nil).prop('readonly', true);
+    _ezLamaForm.addLabel('Bank Preset', 'c8421504 i s10', '', [130, 173]);
+      ezBankPreset := _ezLamaForm.addCombobox(['1', '2'], 's10', '', [140, 193], 65, nil).prop('readonly', true);
+    _ezLamaForm.addLabel('Urns to Make', 'c8421504 i s10', '', [20, 223]);
+      ezUrnMakeCount := _ezLamaForm.addMemo('9001', 'i', '', [30, 243], [90, 20], nil);
+    ezSmartProggy := _ezLamaForm.addCheckbox('SMART Report', 'c8421504 i s10', '', [140, 243], nil);
 
-  _ezLamaForm.addImage('http://puu.sh/l77DQ/4eb83917ec.png', '', [0, 265], [260, 30], pFormWebLink); // Visit thread image
+  _ezLamaForm.addImage('http://puu.sh/l77DQ/4eb83917ec.png', '', [0, 278], [260, 30], pFormWebLink); // Visit thread image
 
   _ezLamaForm.show();
 end;
