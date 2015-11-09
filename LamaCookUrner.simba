@@ -2,9 +2,6 @@ program LamaCookUrner;
 {$i ezForm.simba}
 {$i ogLib/lib/core/core.simba}
 
-// 56k xp/hr
-// 1.2m gp/hr profit
-
 const
 {============================== Script Options ==============================}
 
